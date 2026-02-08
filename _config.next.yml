@@ -1,0 +1,211 @@
+# NexT Theme Configuration
+# https://theme-next.js.org/
+
+# -------------------------------------------------------------
+# 主题风格 Scheme
+# -------------------------------------------------------------
+# 可选: Muse | Mist | Pisces | Gemini
+# Gemini 是最现代化的双栏布局
+scheme: Gemini
+
+# 深色模式
+darkmode: true
+
+# -------------------------------------------------------------
+# 菜单设置
+# -------------------------------------------------------------
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: true
+
+# -------------------------------------------------------------
+# 侧边栏设置
+# -------------------------------------------------------------
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# 头像
+avatar:
+  url: /images/avatar.gif
+  rounded: true
+  rotated: false
+
+# 网站状态（文章数/分类数/标签数）
+site_state: true
+
+# -------------------------------------------------------------
+# 社交链接
+# -------------------------------------------------------------
+social:
+  GitHub: https://github.com/jacobcy || fab fa-github
+  Twitter: https://x.com/Lullaby_shark || fab fa-x-twitter
+  Telegram: https://t.me/shark_fisher_channel || fab fa-telegram
+  # 在 about 页面添加其他链接
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+
+# -------------------------------------------------------------
+# 目录设置
+# -------------------------------------------------------------
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 6
+
+# -------------------------------------------------------------
+# 搜索功能
+# -------------------------------------------------------------
+local_search:
+  enable: true
+  # 如果搜索结果为空，是否重载页面
+  trigger: auto
+  # 在搜索框上方显示顶部内容
+  top_n_per_article: 1
+  # 全文搜索的未转义 HTML 限制
+  unescape: false
+  # 在搜索框上方显示预加载
+  preload: false
+
+# -------------------------------------------------------------
+# 返回顶部按钮
+# -------------------------------------------------------------
+back2top:
+  enable: true
+  # 在侧边栏中显示返回顶部按钮
+  sidebar: false
+  # 滚动百分比显示在返回顶部按钮上
+  scrollpercent: true
+
+# -------------------------------------------------------------
+# 阅读更多按钮
+# -------------------------------------------------------------
+read_more_btn: true
+
+# -------------------------------------------------------------
+# 代码高亮设置
+# -------------------------------------------------------------
+codeblock:
+  copy_button:
+    enable: true
+    style: default
+
+# -------------------------------------------------------------
+# 打赏功能
+# -------------------------------------------------------------
+reward:
+  enable: false
+
+# -------------------------------------------------------------
+# 评论系统 (可选)
+# -------------------------------------------------------------
+# 如果需要评论功能，可以取消下面的注释并配置
+#comments:
+#  active: gitalk
+#
+#gitalk:
+#  enable: true
+#  github_id: jacobcy
+#  repo: jacobcy.github.io
+#  client_id: your-client-id
+#  client_secret: your-client-secret
+#  admin_user: jacobcy
+
+# -------------------------------------------------------------
+# 页脚设置
+# -------------------------------------------------------------
+footer:
+  since: 2023
+  icon:
+    name: fa fa-heart
+    color: '#ff0000'
+  # 托管信息
+  hosting:
+    enable: false
+  # Beian 备案信息 (中国网站)
+  beian:
+    enable: false
+
+# 版权信息
+creative_commons:
+  license: by-nc-sa
+  size: small
+  sidebar: true
+  post: true
+
+# -------------------------------------------------------------
+# 其他功能
+# -------------------------------------------------------------
+
+# 书签功能
+bookmark:
+  enable: true
+  color: '#222'
+  save: auto
+
+# 进度条
+pace:
+  enable: true
+  theme: minimal
+
+# 动画效果
+motion:
+  enable: true
+  async: false
+  transition:
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    sidebar: fadeInUp
+
+# 缓存
+cache:
+  enable: true
+
+# -------------------------------------------------------------
+# SEO 和 Analytics 配置
+# -------------------------------------------------------------
+
+# Google Analytics
+google_analytics:
+  tracking_id: 
+  only_pageview: false
+
+# Bing Webmaster Tools 验证
+bing_site_verification: 
+
+# Google Search Console 验证
+google_site_verification: 
+
+# Baidu 验证
+baidu_site_verification: 
+
+# Open Graph 和 Twitter Cards
+open_graph:
+  enable: true
+  twitter_card: summary_large_image
+  twitter_id: 
+  twitter_site: 
+
+# -------------------------------------------------------------
+# 结构化数据 Schema.org
+# -------------------------------------------------------------
+seo:
+  structured_data: true
+  json_ld: true

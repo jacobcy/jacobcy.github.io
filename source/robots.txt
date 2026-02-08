@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://iwangpo.com/sitemap.xml
+
+# 禁止爬虫访问的路径
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+
+# 允许访问的主要内容
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /2026/
+Allow: /2023/
+
+# 爬虫抓取频率
+Crawl-delay: 10
+
+# 主要搜索引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Slurp
+Allow: /
